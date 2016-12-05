@@ -1,0 +1,26 @@
+{
+  "name": "scrollindojs",
+  "description": "",
+  "version": "0.1.0",
+  "author": {
+    "name": "afonsopacifer",
+    "email": "afonsopacifer@live.com"
+  },
+  "bugs": {
+    "url": "https://github.com/afonsopacifer/scrollindo.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afonsopacifer/scrollindo.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint src/scrollindo.js",
+    "jsdocs": "jsdoc src/scrollindo.js",
+    "uglify": "uglifyjs src/scrollindo.js --compress -o scrollindo.min.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "jsdoc": "^3.4.0"
+  }
+}
