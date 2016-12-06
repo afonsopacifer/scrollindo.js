@@ -1,13 +1,28 @@
 # scrollindo.js
 
-> Simple abstraction for scroll interactions.
+> Simple abstraction for scroll interactions <3
 
 [![Build Status](https://travis-ci.org/afonsopacifer/scrollindo.js.svg?branch=master)](https://travis-ci.org/afonsopacifer/scrollindo.js)
 [![devDependency Status](https://david-dm.org/afonsopacifer/scrollindo.js/dev-status.svg)](https://david-dm.org/afonsopacifer/scrollindo.js#info=devDependencies)
 
 ## How to Use?
 
-:construction:
+### Install
+
+Get scrollindo using [Download Option](https://github.com/afonsopacifer/scrollindo.js/archive/master.zip).
+
+Add the source before the closing body tag:
+
+```html
+<script src="scrollindo.min.js"></script>
+</body>
+```
+
+### Usage
+
+```js
+scrollindo('#selector', 'class')
+```
 
 <hr>
 

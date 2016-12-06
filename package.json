@@ -1,6 +1,6 @@
 {
   "name": "scrollindojs",
-  "description": "",
+  "description": "Simple abstraction for scroll interactions.",
   "version": "0.1.0",
   "author": {
     "name": "afonsopacifer",
