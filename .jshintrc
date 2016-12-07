@@ -1,0 +1,13 @@
+{
+  "globals": {
+    "define": false,
+    "module": false
+  },
+  "browser": true,
+  "undef": true,
+  "unused": true,
+  "eqeqeq": true,
+  "indent": 2,
+  "newcap": true,
+  "curly": true
+}

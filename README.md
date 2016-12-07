@@ -28,26 +28,11 @@ scrollindo('#selector', 'class')
 
 ## Development
 
-### Code Style
+Automatic Tasks:
 
-*Validate the code style with [ESLint](http://eslint.org/):*
-```sh
-$ npm run eslint
-```
-
-### Code Docs
-
-*Generate code docs with [JSDocs](http://usejsdoc.org/)*
-```sh
-$ npm run jsdocs
-```
-
-View code docs in `out/index.html`
-
-### Generate the .min file
-```sh
-$ npm run uglify
-```
+- `$ gulp build` : minify the scrollindo.js.
+- `$ gulp serve` : Watch the files to build and start a static server.
+- `$ gulp deploy` : Deploy the demo for gh-pages.
 
 <hr>
 

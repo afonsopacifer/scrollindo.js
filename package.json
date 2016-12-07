@@ -14,13 +14,13 @@
     "url": "https://github.com/afonsopacifer/scrollindo.js"
   },
   "license": "MIT",
-  "scripts": {
-    "eslint": "eslint src/scrollindo.js",
-    "jsdocs": "jsdoc src/scrollindo.js",
-    "uglify": "uglifyjs src/scrollindo.js --compress -o scrollindo.min.js"
-  },
   "devDependencies": {
-    "eslint": "^3.2.2",
-    "jsdoc": "^3.4.0"
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "jshint": "^2.9.4"
   }
 }

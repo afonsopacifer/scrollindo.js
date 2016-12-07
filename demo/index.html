@@ -3,29 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>scrollindo.js</title>
-
     <style>
-      div {
-        height: 1000px;
+      .bar {
+        width: 30px;
+        height: 500px;
         margin-top: 2000px;
-        width: 50px;
-        background: #ccc;
       }
-      .acitive {
+
+      .show {
 
       }
     </style>
   </head>
   <body>
-      <div id="div">d</div>
 
-      <script src="../src/scrollindo.js"></script>
+    <div class="bar"></div>
 
-      <script>
-        scrollindo('#div','active');
-      </script>
-
+    <script src="scrollindo.min.js"></script>
+    <script>
+      scrollindo('.bar','show')
+    </script>
   </body>
 </html>

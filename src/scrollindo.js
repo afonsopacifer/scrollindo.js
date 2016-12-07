@@ -9,15 +9,16 @@
     root.scrollindo = factory;
   }
 }(this, function scrollindo(ele, newClass) {
-  if (typeof(ele) === 'string')
+  if (typeof(ele) === 'string') {
     var element = document.querySelector(ele);
     var elementTop = element.offsetTop;
     var windowHeight = window.innerHeight;
-  window.addEventListener('scroll', function() {
-    var elementPosition = elementTop - document.documentElement.scrollTop;
-    if(windowHeight > elementPosition) {
-      element.classList.add(newClass);
-    }
-  });
+    window.addEventListener('scroll', function() {
+      var elementPosition = elementTop - document.documentElement.scrollTop;
+      if(windowHeight > elementPosition) {
+        element.classList.add(newClass);
+      }
+    });
+  }
 })
 );
