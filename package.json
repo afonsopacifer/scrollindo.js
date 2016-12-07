@@ -21,6 +21,7 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
     "jshint": "^2.9.4"
   }
 }
