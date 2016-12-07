@@ -5,6 +5,14 @@
 [![Build Status](https://travis-ci.org/afonsopacifer/scrollindo.js.svg?branch=master)](https://travis-ci.org/afonsopacifer/scrollindo.js)
 [![devDependency Status](https://david-dm.org/afonsopacifer/scrollindo.js/dev-status.svg)](https://david-dm.org/afonsopacifer/scrollindo.js#info=devDependencies)
 
+View a [demo](http://afonsopacifer.github.io/scrollindo.js/) <3
+
+## Cool things :)
+
+- Less than 1kb
+- No dependencies
+- [UMD support](https://github.com/umdjs/umd)
+
 ## How to Use?
 
 ### Install
@@ -17,12 +25,14 @@ Add the source before the closing body tag:
 <script src="scrollindo.min.js"></script>
 </body>
 ```
+ps: [UMD support is available](https://github.com/umdjs/umd) o/
 
 ### Usage
 
 ```js
 scrollindo('#selector', 'class')
 ```
+
 
 <hr>
 
