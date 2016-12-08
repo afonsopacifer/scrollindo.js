@@ -3,13 +3,16 @@ body {
   background-color: #ffe08e;
 }
 
+* {
+  box-sizing: border-box;
+}
 .header {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 
 .sub {
@@ -54,12 +57,17 @@ body {
   width: 100%;
   max-width: 800px;
   margin: 20px auto;
-  padding: 60px 0;
+  padding: 60px 20px;
   border-top: 2px dashed #6d6d6d;
 }
 
 .article {
   margin: 30px 0;
+}
+
+.eva {
+  width: 100%;
+  max-width: 300px;
 }
 
 .footer {
@@ -96,7 +104,7 @@ body {
   background-color: #fff;
   position: relative;
   display: inline-block;
-  animation: pulse .5s infinite alternate ease-in;
+  animation: pulseH .5s infinite alternate ease-in;
 }
 
 .heart:before {
@@ -121,7 +129,7 @@ body {
   content: "";
 }
 
-@keyframes pulse {
+@keyframes pulseH {
     from {transform: rotate(-135deg) scale(1);}
     to   {transform: rotate(-135deg) scale(1.2);}
 }
