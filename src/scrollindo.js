@@ -13,7 +13,6 @@
 
   var $element = document.querySelector(element);
   var shouldScroll = true;
-  var log = window.console.log;
 
   function init () {
     window.addEventListener('scroll', handleScroll, false);

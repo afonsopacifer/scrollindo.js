@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/afonsopacifer/scrollindo.js/issues"
   },
+  "main": "scrollindo.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/afonsopacifer/scrollindo.js"
