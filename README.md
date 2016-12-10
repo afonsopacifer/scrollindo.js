@@ -17,7 +17,14 @@ View a [demo](http://afonsopacifer.github.io/scrollindo.js/) <3
 
 ### Install
 
-Get scrollindo using [Download Option](https://github.com/afonsopacifer/scrollindo.js/archive/master.zip).
+
+Use npm:
+```sh
+npm install scrollindo.js
+```
+
+
+or get scrollindo using [Download Option](https://github.com/afonsopacifer/scrollindo.js/archive/master.zip).
 
 Add the source before the closing body tag:
 
