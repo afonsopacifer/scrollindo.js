@@ -20,7 +20,7 @@ View a [demo](http://afonsopacifer.github.io/scrollindo.js/) <3
 
 Use npm:
 ```sh
-npm install scrollindo.js
+npm install scrollindojs
 ```
 
 
