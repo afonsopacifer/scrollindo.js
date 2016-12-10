@@ -1,24 +1,45 @@
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define('scrollindo', function() {
-      return factory;
-    });
+    define('scrollindo', factory);
   } else if (typeof module === 'object' && module.exports) {
     module.exports = factory;
   } else {
     root.scrollindo = factory;
   }
-}(this, function scrollindo(ele, newClass) {
-  if (typeof(ele) === 'string') {
-    var element = document.querySelector(ele);
-    var elementTop = element.offsetTop;
-    var windowHeight = window.innerHeight;
-    window.addEventListener('scroll', function() {
-      var elementPosition = elementTop - document.documentElement.scrollTop;
-      if(windowHeight > elementPosition) {
-        element.classList.add(newClass);
-      }
-    });
+}(this, function scrollindo(element, newClass) {
+  if (typeof element !== 'string' || typeof newClass !== 'string') {
+    return;
   }
-})
-);
+
+  var $element = document.querySelector(element);
+  var shouldScroll = true;
+  var log = window.console.log;
+
+  function init () {
+    window.addEventListener('scroll', handleScroll, false);
+  }
+
+  function handleScroll () {
+    if (!shouldScroll) {
+      return;
+    }
+    blockScroll();
+
+    var windowScroll = window.scrollY + window.innerHeight;
+    var elementOffsetTop = $element.offsetTop;
+    if (windowScroll >= elementOffsetTop) {
+      $element.classList.add(newClass);
+    }
+    setTimeout(allowScroll, 500);
+  }
+
+  function blockScroll () {
+    shouldScroll = false;
+  }
+
+  function allowScroll () {
+    shouldScroll = true;
+  }
+
+  init();
+}));

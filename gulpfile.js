@@ -23,8 +23,7 @@ gulp.task('hint', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(['./src/scrollindo.js'], ['uglify'])
-  gulp.watch(['./src/scrollindo.js'], ['hint']);;
+  gulp.watch(['./src/scrollindo.js'], ['uglify', 'hint'])
 });
 
 gulp.task('connect', () => {
