@@ -28,6 +28,7 @@
     var elementOffsetTop = $element.offsetTop;
     if (windowScroll >= elementOffsetTop) {
       $element.classList.add(newClass);
+      window.removeEventListener('scroll', handleScroll);
     }
     setTimeout(allowScroll, 500);
   }
