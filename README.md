@@ -3,7 +3,7 @@
 > Simple abstraction for scroll interactions <3
 
 [![Build Status](https://travis-ci.org/afonsopacifer/scrollindo.js.svg?branch=master)](https://travis-ci.org/afonsopacifer/scrollindo.js)
-[![devDependency Status](https://david-dm.org/afonsopacifer/scrollindo.js/dev-status.svg)](https://david-dm.org/afonsopacifer/scrollindo.js#info=devDependencies)
+[![devDependency Status](https://david-dm.org/afonsopacifer/scrollindo.js/dev-status.svg)](https://david-dm.org/afonsopacifer/scrollindo.js?type=dev)
 
 View a [demo](http://afonsopacifer.github.io/scrollindo.js/) <3
 
